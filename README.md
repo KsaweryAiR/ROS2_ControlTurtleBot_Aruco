@@ -2,11 +2,14 @@
 Detect and Movement
 
 usb cam:
-``git clone --branch ros2 https://github.com/ros-drivers/usb_cam.git``
+```bash
+git clone --branch ros2 https://github.com/ros-drivers/usb_cam.git
+```
 
 turtlebot:
-``sudo apt install ros-humble-turtlebot3*``
-
+```bash
+sudo apt install ros-humble-turtlebot3*
+```
 
 in your workspace:
 ```bash
@@ -35,3 +38,7 @@ export TURTLEBOT3_MODEL=burger
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:ros2 pkg \
 prefix turtlebot3_gazebo \
 /share/turtlebot3_gazebo/models/
+```
+```bash
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+```
