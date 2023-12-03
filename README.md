@@ -19,14 +19,11 @@ run usb cam
 ``ros2 run usb_cam usb_cam_node_exe``
 
 run turlebot
-``export TURTLEBOT3_MODEL=burger``
-
-``export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
-prefix turtlebot3_gazebo \
-`/share/turtlebot3_gazebo/models/``
+```bash
+export TURTLEBOT3_MODEL=burger
+```
 
 ```bash
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:ros2 pkg \
 prefix turtlebot3_gazebo \
 /share/turtlebot3_gazebo/models/
-```
