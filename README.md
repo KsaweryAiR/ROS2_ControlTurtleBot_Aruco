@@ -43,5 +43,6 @@ prefix turtlebot3_gazebo \
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
 
-![Przykładowy GIF](result.gif)
+![using a color picker](result.gif 'title text here')
+
 
