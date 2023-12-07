@@ -43,6 +43,6 @@ prefix turtlebot3_gazebo \
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
 
-![using a color picker](result.gif)
+![using a color picker](result2.gif)
 
 
