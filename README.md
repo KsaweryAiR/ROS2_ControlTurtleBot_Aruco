@@ -43,7 +43,10 @@ prefix turtlebot3_gazebo \
 ```bash
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
-![using a color picker](result.gif)
+<video autoplay loop muted playsinline>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
 
 
 
