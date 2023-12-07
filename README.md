@@ -1,5 +1,5 @@
 # ROS2_ControlTurtleBot_Aruco-Public
-Detect and Movement
+1. Download packages
 
 usb cam:
 ```bash
@@ -10,7 +10,8 @@ turtlebot:
 ```bash
 sudo apt install ros-humble-turtlebot3*
 ```
-
+2. Run
+   
 in your workspace:
 ```bash
 colcon build
@@ -42,7 +43,7 @@ prefix turtlebot3_gazebo \
 ```bash
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
+<img src="result.gif" alt="using a color picker" width="300" height="200">
 
-![using a color picker](result2.gif)
 
 
